@@ -1,0 +1,32 @@
+/* ヘッダーここから */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  padding: 0 30px;
+}
+/* ロゴここから */
+.header-logo-img {
+  width: 140px;
+  height: auto;
+}
+/* ロゴここまで */
+/* ナビここから */
+.header-nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-nav-item {
+  font-size: 18px;
+}
+.header-nav-item:not(:last-of-type) {
+  margin-right: 30px;
+}
+.header-nav-item-link {
+  text-decoration: none;
+  color: rgb(50, 50, 50);
+}
+/* ナビここまで */
+/* ヘッダーここまで */
